@@ -1,0 +1,22 @@
+.book {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background: #2ea3dc;
+    /*display: none;*/
+    position: absolute;
+    top: 6%;
+    opacity: 0;
+}
+
+.click{
+    width: 80px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    margin: 0 auto;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    background: #666666;
+}

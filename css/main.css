@@ -1,0 +1,424 @@
+#wrap {
+    min-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: 1224px;
+    background: url(../img/background.jpg) no-repeat center;
+}
+
+.main {
+    width: 1200px;
+    height: 1137px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+}
+
+.main .musicBtn {
+    width: 12px;
+    cursor: pointer;
+    height: 13px;
+    top: 16%;
+    right: 13%;
+    position: absolute;
+    background: url(../img/music-on.gif) no-repeat;
+}
+
+.main .musicBtn-stop {
+    width: 12px;
+    cursor: pointer;
+    display: none;
+    height: 13px;
+    top: 16%;
+    right: 13%;
+    position: absolute;
+    background: url(../img/music-off.png) no-repeat;
+}
+
+.logo {
+    width: 1011px;
+    height: 132px;
+    margin-left: 100px;
+    background: url(../img/logo.png) no-repeat center;
+}
+
+.hrefHot {
+    position: absolute;
+    top: 15%;
+    right: 205px;
+}
+
+.hrefHot a:hover {
+    opacity: .8;
+    filter: alpha(opacity=80);
+}
+
+.hrefHot .fanpage {
+    width: 137px;
+    float: left;
+    display: block;
+    height: 40px;
+    background: url(../img/fanpage.png) no-repeat center;
+}
+
+.hrefHot .index {
+    width: 138px;
+    display: block;
+    float: left;
+    height: 40px;
+    background: url(../img/indexPage.png) no-repeat center;
+}
+
+.bookPage {
+    width: 1200px;
+    height: 739px;
+    margin-top: 75px;
+    position: absolute;
+    z-index: 92;
+}
+
+.bookPage .leftPage {
+    width: 640px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.bookPage .leftPage .icon {
+    background: url(../img/icon.png) center no-repeat;
+    width: 201px;
+    height: 180px;
+    -webkit-animation-delay: 0.2s;
+
+}
+
+.bookPage .leftPage article {
+    font-size: 34px;
+    color: white;
+    position: absolute;
+    top: 62px;
+    left: 34%;
+    -webkit-animation-delay: 1s;
+}
+
+.bookPage .leftPage .character {
+    width: 354px;
+    height: 612px;
+    position: absolute;
+    left: -35px;
+    margin-top: 44px;
+    background: url(../img/left_people.png) no-repeat;
+}
+
+.bookPage .leftPage .downloadBox {
+    width: 280px;
+    height: 621px;
+    background: url(../img/right_bg.png) no-repeat;
+    position: relative;
+    left: 31%;
+}
+
+.bookPage .leftPage .downloadBox .desc {
+    background: url(../img/desc.png) no-repeat;
+    width: 226px;
+    position: absolute;
+    height: 140px;
+    top: 50px;
+    left: 30px;
+}
+
+.bookPage .leftPage .downloadBox .download {
+    position: absolute;
+    top: 40%;
+    left: 50px;
+}
+
+.bookPage .leftPage .downloadBox .download a {
+    width: 193px;
+    height: 54px;
+    display: block;
+}
+
+/*.bookPage .leftPage .downloadBox .download a:hover {*/
+/*opacity: .8;*/
+/*filter: alpha(opacity=80);*/
+/*}*/
+
+.bookPage .leftPage .downloadBox .download .appleDown {
+    background: url(../img/app.png) no-repeat;
+    margin-bottom: 5px;
+}
+
+.bookPage .leftPage .downloadBox .download .appleDown:hover {
+    /*background: url(../img/app.png) no-repeat;*/
+    background: url(../img/IOS_hover.png) no-repeat;
+    margin-bottom: 5px;
+}
+
+.bookPage .leftPage .downloadBox .download .androidDown {
+    background: url(../img/google.png) no-repeat;
+}
+
+.bookPage .leftPage .downloadBox .download .androidDown:hover {
+    background: url(../img/google_hover.png) no-repeat;
+}
+
+.bookPage .leftPage .downloadBox .qrCode {
+    background: url(../img/erwiema.png) no-repeat;
+    width: 191px;
+    height: 222px;
+    position: absolute;
+    top: 60%;
+    left: 18%;
+}
+
+.bookPage .rightPage {
+    width: 585px;
+    margin-top: -60%;
+    margin-left: 50%;
+    position: relative;
+}
+
+.bookPage .rightPage .indexPage {
+    background: url(../img/index.png) no-repeat center;
+    width: 518px;
+    height: 738px;
+    float: left;
+}
+
+.bookPage .rightPage .goBtn {
+    background: url(../img/reading.png) no-repeat center;
+    width: 64px;
+    cursor: pointer;
+    height: 204px;
+    z-index: 9;
+    float: left;
+    margin-top: 43%;
+    margin-left: -11px;
+}
+
+.book_main {
+    margin-top: 87px;
+    width: 1024px;
+    margin-left: 100px;
+    position: absolute;
+    top: 10%;
+    opacity: 0;
+}
+
+.book_main .indexNav {
+    background: url(../img/nav_bg.png) no-repeat center;
+    width: 279px;
+    height: 57px;
+    z-index: 8;
+    margin-left: 62px;
+}
+
+.book_main .indexNav a {
+    line-height: 55px;
+    text-align: center;
+    font-size: 16px;
+    color: #f2ce9c;
+    font-family: "quark", "Microsoft Yahei", tahoma, Arial, sans-serif;
+}
+
+.book_main .indexNav .indexPage-btn, .book_main .indexNav .next-btn {
+    width: 94px;
+    height: 57px;
+    cursor: pointer;
+    z-index: 9;
+    display: block;
+}
+
+.book_main .indexNav .indexPage-btn {
+    margin-left: 45px;
+    float: left;
+    background: url(../img/indexPageBtn.png) center no-repeat;
+}
+
+.book_main .indexNav .next-btn {
+    float: left;
+    background: url(../img/indexPageBtn.png) no-repeat;
+}
+
+.curr {
+    background: url(../img/bookBtn_hover.png) !important;
+}
+
+.book_main .eBook {
+    width: 1018px;
+    height: 739px;
+    /*height: 710px;*/
+    position: relative;
+    background: url(../img/bookBg.png) no-repeat center;
+}
+
+.page img {
+    width: 507px;
+    height: 712px;
+    float: left;
+    margin-left: -20px;
+}
+
+.book_main .pageNav {
+    background: url(../img/nav.png) no-repeat center;
+    width: 874px;
+    height: 50px;
+    z-index: 8;
+    margin-left: 52px;
+}
+
+.book_main .pageNav a {
+    width: 94px;
+    height: 53px;
+    display: block;
+    float: left;
+    cursor: pointer;
+    color: #694c0d;
+    line-height: 48px;
+    font-size: 16px;
+    text-align: center;
+    font-family: quark, tahoma, Arial, sans-serif;
+}
+
+.book_main .pageNav .prevBtn {
+    width: 56px;
+    height: 50px;
+}
+
+.book_main .pageNav .nextBtn {
+    width: 54px;
+    height: 54px;
+    float: right;
+}
+
+.active {
+    background: url(../img/wordBg_hover.png) no-repeat !important;
+}
+
+.book_main .pageNav .page1, .book_main .pageNav .page2, .book_main .pageNav .page3, .book_main .pageNav .page4 {
+    background: url(../img/wordBg.png) no-repeat;
+}
+
+.book_main .bookPrev-btn:hover, .book_main .bookNext-btn:hover {
+    opacity: .8;
+    filter: alpha(opacity=80);
+}
+
+.book_main .bookPrev-btn {
+    width: 53px;
+    position: absolute;
+    height: 152px;
+    top: 37%;
+    left: -48px;
+    z-index: 100;
+    display: block;
+    background: url(../img/prevBtn.png) no-repeat;
+}
+
+.book_main .bookNext-btn {
+    width: 48px;
+    height: 151px;
+    display: block;
+    top: 37%;
+    right: -32px;
+    position: absolute;
+    background: url(../img/nextBtn.png) no-repeat;
+}
+
+.book_main .produce {
+    background: url(../img/productBg.png) no-repeat;
+    width: 270px;
+    height: 55px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: -5px;
+    margin-left: 10%;
+    color: #a7623e;
+    display: block;
+}
+
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    min-width: 1024px;
+    background: #ffffff;
+    height: 90px;
+}
+
+.footer .icopy {
+    width: 1000px;
+    min-width: 1024px;
+    line-height: 25px;
+    margin: 0 auto;
+}
+
+.footer .icopy .p1 {
+    color: #a7a7a7;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 55px
+}
+
+.footer .icopy .p2 {
+    color: #a7a7a7;
+    text-align: center;
+    font-size: 13px;
+}
+
+@-webkit-keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+.zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.loading {
+    width: 160px;
+    height: 56px;
+    position: absolute;
+    top: 50%;
+    margin-top: -28px;
+    right: 135px;
+    line-height: 56px;
+    color: #fff;
+    padding-left: 60px;
+    font-size: 15px;
+    background: #000 url(../img/ajax-loader.gif) no-repeat 10px 50%;
+    opacity: 0.7;
+    z-index: 9999;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
